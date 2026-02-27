@@ -39,6 +39,8 @@ case $1 in
         ;;
         
     *)
+    esac
+    
         echo "Comandos disponíveis:"
         echo "  ./simulate_slurm.sh sbatch <script>"
         echo "  ./simulate_slurm.sh squeue"
