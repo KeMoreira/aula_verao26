@@ -44,3 +44,4 @@ case $1 in
         echo "  ./simulate_slurm.sh squeue"
         echo "  ./simulate_slurm.sh scancel <jobid>"
         ;;
+esac
